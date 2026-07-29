@@ -1,0 +1,10 @@
+{
+  "config_identity": "rollback_qa_test_repo",
+  "revision_label": "revision-a-known-good",
+  "rollback_scope": "code-and-configuration-only",
+  "exclusions": [
+    "external database changes",
+    "external data changes",
+    "irreversible schema changes"
+  ]
+}

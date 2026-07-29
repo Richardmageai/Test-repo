@@ -1,0 +1,30 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks:
+  - transform_qa_seed
+  name: load_qa_seed
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_qa_seed
+- all_upstream_blocks_executed: true
+  downstream_blocks:
+  - export_qa_seed
+  name: transform_qa_seed
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_qa_seed
+  uuid: transform_qa_seed
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: export_qa_seed
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - transform_qa_seed
+  uuid: export_qa_seed
+name: qa_overwrite_protection
+type: python
+uuid: qa_overwrite_protection
+widgets: []

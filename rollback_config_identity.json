@@ -1,6 +1,6 @@
 {
   "config_identity": "rollback_qa_test_repo",
-  "revision_label": "revision-b-known-good",
+  "revision_label": "revision-c-current-before-rollback",
   "rollback_scope": "code-and-configuration-only",
   "exclusions": [
     "external database changes",

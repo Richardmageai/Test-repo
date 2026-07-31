@@ -2,3 +2,4 @@ base: external IDE will edit this file only.
 expected: this file should pull into Mage without touching Mage-only edits.
 external IDE edit prepared by Codex for Case 1.
 external IDE remote-only edit after Mage project setup.
+external IDE remote-only edit after Git directory alignment.

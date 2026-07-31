@@ -1,0 +1,2 @@
+base: open this in Mage first.
+expected: if external IDE changes this before Mage saves, Mage must preserve the Mage draft as a file version.

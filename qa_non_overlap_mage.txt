@@ -1,0 +1,2 @@
+base: Mage will edit this file only.
+expected: this file should survive a pull that imports external non-overlap work.

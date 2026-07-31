@@ -1,0 +1,2 @@
+base: push guard file.
+expected: push must be blocked when remote has newer work.

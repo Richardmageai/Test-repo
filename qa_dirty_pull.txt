@@ -1,0 +1,2 @@
+base: dirty pull file.
+expected: dirty Mage edits must not be overwritten by a pull.

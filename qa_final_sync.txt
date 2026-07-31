@@ -1,0 +1,2 @@
+base: final sync file.
+expected: after deliberate resolution, Mage and remote branch SHAs must match.

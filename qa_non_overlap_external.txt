@@ -1,2 +1,3 @@
 base: external IDE will edit this file only.
 expected: this file should pull into Mage without touching Mage-only edits.
+external IDE edit prepared by Codex for Case 1.

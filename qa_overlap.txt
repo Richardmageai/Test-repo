@@ -1,2 +1,2 @@
-base: external IDE overlap after cache refresh retest.
+base: external IDE conflict for user resolver test.
 expected: Mage must block the pull and preserve both versions.

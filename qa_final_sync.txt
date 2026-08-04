@@ -1,0 +1,2 @@
+base: final synchronization proof starts here.
+expected: resolved content should end in Mage workspace and GitHub branch.

@@ -1,0 +1,2 @@
+base: dirty pull local workspace guard starts here.
+expected: dirty pull should not silently overwrite local changes.

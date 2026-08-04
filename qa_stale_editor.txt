@@ -1,0 +1,2 @@
+base: stale editor save starts here.
+expected: stale save should be blocked and both versions preserved.

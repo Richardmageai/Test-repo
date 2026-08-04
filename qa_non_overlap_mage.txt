@@ -1,0 +1,2 @@
+base: Mage will edit this file locally.
+expected: Pull should not report a conflict when external IDE edits a different file.

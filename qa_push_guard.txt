@@ -1,0 +1,2 @@
+base: non-fast-forward push guard starts here.
+expected: stale local push should be rejected safely.

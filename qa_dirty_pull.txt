@@ -1,2 +1,2 @@
-base: external IDE dirty-pull overlap for Accept Mage QA.
+base: Mage UI dirty-pull overlap for Accept Mage QA.
 expected: dirty pull should not silently overwrite local changes.

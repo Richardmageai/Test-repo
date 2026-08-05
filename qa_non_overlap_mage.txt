@@ -1,2 +1,4 @@
 base: Mage will edit this file locally.
 expected: Pull should not report a conflict when external IDE edits a different file.
+
+Mage EKS non-overlap local edit 2026-08-04T23:58Z

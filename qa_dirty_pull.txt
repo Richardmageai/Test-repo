@@ -1,2 +1,2 @@
-base: dirty pull local workspace guard starts here.
+base: external IDE dirty-pull overlap for Accept Mage QA.
 expected: dirty pull should not silently overwrite local changes.

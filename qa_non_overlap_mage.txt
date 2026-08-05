@@ -1,2 +1,3 @@
 base: Mage-only non-overlap line.
+Mage UI non-overlap edit 2026-08-05.
 expected: non-overlap should not be treated as conflict.

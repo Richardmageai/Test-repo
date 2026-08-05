@@ -1,2 +1,2 @@
-base: external IDE overlap edit for EKS verifier 2026-08-05.
+base: both Mage and external IDE will edit this same line.
 expected: Mage must block the pull and preserve both versions.

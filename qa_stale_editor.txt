@@ -1,2 +1,2 @@
 base: stale editor save starts here.
-expected: stale save should be blocked and both versions preserved.
+expected: stale browser save must be blocked safely.

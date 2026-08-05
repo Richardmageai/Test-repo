@@ -1,4 +1,2 @@
-base: external IDE will edit this file remotely.
-expected: Pull should merge this remote-only file change safely.
-
-External IDE non-overlap remote edit 2026-08-04T23:58Z
+base: external-only non-overlap line.
+expected: non-overlap should pull safely.

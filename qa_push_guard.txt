@@ -1,2 +1,3 @@
 base: non-fast-forward push guard starts here.
+external IDE remote-only push guard edit 2026-08-05.
 expected: stale local push should be rejected safely.

@@ -1,2 +1,2 @@
-base: Mage and external IDE will edit this same line.
+base: external IDE overlapping edit for resolver QA.
 expected: Mage must block pull, preserve both versions, and show resolver choices.

@@ -1,0 +1,3 @@
+QA stale deploy guard proof.
+Created at 2026-08-06T19:46:09.325Z.
+Previous branch SHA 91d1b75e59a1255e1719cb4d1d3bf48104fd6448.

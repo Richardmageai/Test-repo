@@ -1,2 +1,2 @@
-base: external IDE conflict pushed by Codex for EKS QA 20260806.
+base: external IDE demo conflict pushed by Codex 20260806-113536.
 expected: Mage must block pull, preserve both versions, and show resolver choices.

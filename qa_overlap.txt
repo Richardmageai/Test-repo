@@ -1,2 +1,2 @@
-base: both Mage and external IDE will edit this same line.
+base: external IDE overlap edit after Push UI fix.
 expected: Mage must block the pull and preserve both versions.

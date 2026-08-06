@@ -1,2 +1,2 @@
-base: push guard starts from this line.
+base: Mage local commit for non-fast-forward push QA.
 expected: non-fast-forward push must be rejected without losing local work.

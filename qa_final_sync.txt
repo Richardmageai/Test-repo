@@ -1,2 +1,3 @@
 base: final synchronization starts from this line.
+external: remote branch advanced before Mage pushed the local commit.
 expected: after resolution, Mage, repository status, and GitHub branch agree.

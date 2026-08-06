@@ -1,2 +1,2 @@
-base: Mage will edit only this file.
+base: Mage protected API local non-overlap edit for QA.
 expected: non-overlap must not be reported as a conflict.

@@ -1,2 +1,2 @@
-base: external IDE will edit only this file.
+base: external IDE non-overlap edit for QA.
 expected: non-overlap must pull without overwriting Mage work.

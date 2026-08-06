@@ -1,0 +1,2 @@
+base: stale editor save starts from this line.
+expected: saving older editor content must be blocked safely.

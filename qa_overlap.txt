@@ -1,0 +1,2 @@
+base: Mage and external IDE will edit this same line.
+expected: Mage must block pull, preserve both versions, and show resolver choices.

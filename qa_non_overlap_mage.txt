@@ -1,0 +1,2 @@
+base: Mage will edit only this file.
+expected: non-overlap must not be reported as a conflict.

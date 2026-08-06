@@ -1,0 +1,2 @@
+base: final synchronization starts from this line.
+expected: after resolution, Mage, repository status, and GitHub branch agree.

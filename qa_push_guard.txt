@@ -1,0 +1,2 @@
+base: push guard starts from this line.
+expected: non-fast-forward push must be rejected without losing local work.

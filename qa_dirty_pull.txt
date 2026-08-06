@@ -1,0 +1,2 @@
+base: dirty pull guard starts from this line.
+expected: pull with dirty overlapping file must be blocked.

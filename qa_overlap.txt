@@ -1,2 +1,2 @@
-base: external IDE overlapping edit for resolver QA.
+base: external IDE conflict pushed by Codex for EKS QA 20260806.
 expected: Mage must block pull, preserve both versions, and show resolver choices.

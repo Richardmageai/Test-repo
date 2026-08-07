@@ -1,2 +1,2 @@
-base: clean conflict demo line before edits.
-expected: Mage must block pull, preserve both versions, and open resolver.
+base: External IDE remote edit for clean demo 2026-08-07.
+expected: Mage pull must block and show the conflict resolver.

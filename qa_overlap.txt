@@ -1,0 +1,2 @@
+base: clean conflict demo line before edits.
+expected: Mage must block pull, preserve both versions, and open resolver.

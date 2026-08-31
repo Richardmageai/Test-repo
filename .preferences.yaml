@@ -1,0 +1,18 @@
+sync_config:
+  access_token_secret_name: mage_git_access_token_1
+  auth_type: https
+  big_file_threshold: null
+  branch: develop
+  delete_target_directory: null
+  depth: null
+  email: null
+  pack_size_limit: null
+  release_tag: null
+  remote_repo_link: https://github.com/Richardmageai/Test-repo.git
+  repo_path: /home/src/demo
+  ssh_private_key_secret_name: null
+  ssh_public_key_secret_name: null
+  sync_on_pipeline_run: null
+  sync_on_start: null
+  sync_submodules: null
+  username: null

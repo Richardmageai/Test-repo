@@ -1,0 +1,7 @@
+agent_dev_seed_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /tmp/mage_agent_seed/agent_dev_seed.duckdb
+      schema: main

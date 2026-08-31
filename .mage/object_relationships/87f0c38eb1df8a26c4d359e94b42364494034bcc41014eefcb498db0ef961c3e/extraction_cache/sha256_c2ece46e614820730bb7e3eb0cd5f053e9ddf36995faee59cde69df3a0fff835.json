@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_dense_leaf_north__wait_for_join.py",
+    "language": "python",
+    "name": "Graph Demo Dense Leaf North - Wait For Join",
+    "type": "sensor",
+    "uuid": "graph_demo_dense_leaf_north__wait_for_join"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_shared_join",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:c2ece46e614820730bb7e3eb0cd5f053e9ddf36995faee59cde69df3a0fff835",
+  "file_path": "/home/src/demo/sensors/graph_demo_dense_leaf_north__wait_for_join.py",
+  "schema_version": 1
+}

@@ -1,0 +1,3 @@
+connector_type: dummy
+print_msg: true
+print_sample_count: 2

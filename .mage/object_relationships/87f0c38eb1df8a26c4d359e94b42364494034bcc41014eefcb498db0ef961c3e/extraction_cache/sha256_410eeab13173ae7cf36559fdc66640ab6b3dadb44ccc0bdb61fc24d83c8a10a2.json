@@ -1,0 +1,45 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_dense_shared_join__wait_for_branches.py",
+    "language": "python",
+    "name": "Graph Demo Dense Shared Join - Wait For Branches",
+    "type": "sensor",
+    "uuid": "graph_demo_dense_shared_join__wait_for_branches"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_branch_alpha",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_dense_branch_beta",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 7,
+      "pipeline_uuid": "graph_demo_dense_branch_gamma",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:410eeab13173ae7cf36559fdc66640ab6b3dadb44ccc0bdb61fc24d83c8a10a2",
+  "file_path": "/home/src/demo/sensors/graph_demo_dense_shared_join__wait_for_branches.py",
+  "schema_version": 1
+}

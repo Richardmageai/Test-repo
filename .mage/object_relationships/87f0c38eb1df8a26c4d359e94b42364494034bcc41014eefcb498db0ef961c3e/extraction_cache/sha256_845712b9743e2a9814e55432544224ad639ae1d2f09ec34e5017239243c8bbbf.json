@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/graph_demo_dense_root__publish_snapshot.py",
+    "language": "python",
+    "name": "Graph Demo Dense Root - Publish Snapshot",
+    "type": "data_exporter",
+    "uuid": "graph_demo_dense_root__publish_snapshot"
+  },
+  "calls": [],
+  "content_hash": "sha256:845712b9743e2a9814e55432544224ad639ae1d2f09ec34e5017239243c8bbbf",
+  "file_path": "/home/src/demo/data_exporters/graph_demo_dense_root__publish_snapshot.py",
+  "schema_version": 1
+}

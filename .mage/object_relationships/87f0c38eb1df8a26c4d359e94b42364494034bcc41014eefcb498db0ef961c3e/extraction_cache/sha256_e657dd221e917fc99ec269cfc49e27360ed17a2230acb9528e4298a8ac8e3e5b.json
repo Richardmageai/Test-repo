@@ -1,0 +1,45 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_dense_root__trigger_branches.py",
+    "language": "python",
+    "name": "Graph Demo Dense Root - Trigger Branches",
+    "type": "data_loader",
+    "uuid": "graph_demo_dense_root__trigger_branches"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_branch_alpha",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_dense_branch_beta",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 7,
+      "pipeline_uuid": "graph_demo_dense_branch_gamma",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:e657dd221e917fc99ec269cfc49e27360ed17a2230acb9528e4298a8ac8e3e5b",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_dense_root__trigger_branches.py",
+  "schema_version": 1
+}

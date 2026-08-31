@@ -1,0 +1,12 @@
+agent_dev_seed_duckdb:
+  DUCKDB_DATABASE: /tmp/mage_agent_seed/agent_dev_seed.duckdb
+  DUCKDB_SCHEMA: main
+agent_dev_seed_postgres:
+  POSTGRES_CONNECT_TIMEOUT: 10
+  POSTGRES_DBNAME: '{{ env_var("POSTGRES_DB") }}'
+  POSTGRES_HOST: '{{ env_var("POSTGRES_HOST") }}'
+  POSTGRES_PASSWORD: '{{ env_var("POSTGRES_PASSWORD") }}'
+  POSTGRES_PORT: '{{ env_var("POSTGRES_PORT") }}'
+  POSTGRES_SCHEMA: public
+  POSTGRES_USER: '{{ env_var("POSTGRES_USER") }}'
+version: 0.1.1

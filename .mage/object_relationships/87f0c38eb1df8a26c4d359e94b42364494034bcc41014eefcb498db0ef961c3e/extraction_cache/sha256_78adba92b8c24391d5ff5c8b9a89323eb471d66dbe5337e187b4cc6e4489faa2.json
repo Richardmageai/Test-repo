@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_workspace_trigger_source__trigger_target.py",
+    "language": "python",
+    "name": "Graph Demo Workspace Trigger Source - Trigger Target",
+    "type": "data_loader",
+    "uuid": "graph_demo_workspace_trigger_source__trigger_target"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_workspace_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_workspace_trigger_target",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:78adba92b8c24391d5ff5c8b9a89323eb471d66dbe5337e187b4cc6e4489faa2",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_workspace_trigger_source__trigger_target.py",
+  "schema_version": 1
+}

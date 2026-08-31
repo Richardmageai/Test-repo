@@ -1,0 +1,45 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_dense_shared_join__trigger_leaves.py",
+    "language": "python",
+    "name": "Graph Demo Dense Shared Join - Trigger Leaves",
+    "type": "data_loader",
+    "uuid": "graph_demo_dense_shared_join__trigger_leaves"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_leaf_north",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_dense_leaf_south",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 7,
+      "pipeline_uuid": "graph_demo_dense_finalizer",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:ecd060f541fddd49ccd161a72677755e70a3d68b4c4d4a94ca5281771122351b",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_dense_shared_join__trigger_leaves.py",
+  "schema_version": 1
+}

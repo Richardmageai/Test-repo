@@ -1,0 +1,6 @@
+from mage_ai.orchestration.triggers.api import trigger_workspace_pipeline
+
+
+def load_data(*args, **kwargs):
+    trigger_workspace_pipeline("graph_demo_dense_shared_join")
+    return {"relationship": "gamma_workspace_trigger"}

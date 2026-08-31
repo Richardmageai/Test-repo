@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_combo_target__wait_for_source.py",
+    "language": "python",
+    "name": "Graph Demo Combo Target - Wait For Source",
+    "type": "sensor",
+    "uuid": "graph_demo_combo_target__wait_for_source"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_combo_source",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:2b71762405a9861a03ba2c059a24878247b46639f8c615ffdf94502bfe40ac32",
+  "file_path": "/home/src/demo/sensors/graph_demo_combo_target__wait_for_source.py",
+  "schema_version": 1
+}

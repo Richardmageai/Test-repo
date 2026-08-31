@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/export_seeded_022.py",
+    "language": "python",
+    "name": "Export Seeded 022",
+    "type": "data_exporter",
+    "uuid": "export_seeded_022"
+  },
+  "calls": [],
+  "content_hash": "sha256:1e377f7558fc50c3bb1c3eeda8c0d268d87f5a2de4850a14131483a73923f6bd",
+  "file_path": "/home/src/demo/data_exporters/export_seeded_022.py",
+  "schema_version": 1
+}

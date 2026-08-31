@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_cycle_c__trigger_a.py",
+    "language": "python",
+    "name": "Graph Demo Cycle C - Trigger A",
+    "type": "data_loader",
+    "uuid": "graph_demo_cycle_c__trigger_a"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_cycle_a",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:8fb61c9f3910e4263aeca78c5af499fcab4b08b6e4b702fd114c300ee6827545",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_cycle_c__trigger_a.py",
+  "schema_version": 1
+}

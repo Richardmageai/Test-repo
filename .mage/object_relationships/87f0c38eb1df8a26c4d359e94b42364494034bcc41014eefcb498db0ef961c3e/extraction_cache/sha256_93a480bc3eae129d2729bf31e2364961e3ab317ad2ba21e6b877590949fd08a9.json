@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_neighborhood_hub__trigger_leaf.py",
+    "language": "python",
+    "name": "Graph Demo Neighborhood Hub - Trigger Leaf",
+    "type": "data_loader",
+    "uuid": "graph_demo_neighborhood_hub__trigger_leaf"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_neighborhood_leaf",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:93a480bc3eae129d2729bf31e2364961e3ab317ad2ba21e6b877590949fd08a9",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_neighborhood_hub__trigger_leaf.py",
+  "schema_version": 1
+}

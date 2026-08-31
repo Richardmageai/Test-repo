@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_dense_branch_alpha__wait_for_root.py",
+    "language": "python",
+    "name": "Graph Demo Dense Branch Alpha - Wait For Root",
+    "type": "sensor",
+    "uuid": "graph_demo_dense_branch_alpha__wait_for_root"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_root",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:43dcf25ca29b0da0bb5692b4f7494afc90aef304f2fd59b1079ec3568691f537",
+  "file_path": "/home/src/demo/sensors/graph_demo_dense_branch_alpha__wait_for_root.py",
+  "schema_version": 1
+}

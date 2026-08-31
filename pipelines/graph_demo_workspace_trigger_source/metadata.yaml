@@ -1,0 +1,19 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Workspace Trigger Source - Trigger Target
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_workspace_trigger_source__trigger_target
+created_at: '2026-07-29 00:00:00+00:00'
+description: Calls trigger_workspace_pipeline("graph_demo_workspace_trigger_target").
+name: Graph Demo - Workspace Trigger Source
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_workspace_trigger_source
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

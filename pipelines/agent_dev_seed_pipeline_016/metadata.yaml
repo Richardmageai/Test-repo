@@ -1,0 +1,45 @@
+blocks:
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seed_duckdb
+  language: yaml
+  name: Load Seed Postgres
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_seed_postgres
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: yaml
+  name: Export Seed Duckdb
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - load_seed_postgres
+  uuid: export_seed_duckdb
+callbacks: []
+conditionals: []
+created_at: '2026-06-01 12:00:00+00:00'
+description: 'Copies seeded customer records from PostgreSQL into DuckDB as a batch
+  data integration example; source catalog entry: graph_demo_fan_in_a.'
+extensions: {}
+name: PostgreSQL to DuckDB customer sync
+tags:
+- agent-dev-seed
+- data-integration
+- postgresql
+- duckdb
+type: integration
+uuid: agent_dev_seed_pipeline_016
+variables:
+  generated_block_count: 2
+  seed_index: 15
+  seeded_by: agent_aws_dev_slot_seed
+  source_pipeline_uuid: graph_demo_fan_in_a
+widgets: []

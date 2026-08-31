@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_combo_gdp_consumer__wait_for_target.py",
+    "language": "python",
+    "name": "Graph Demo Combo Gdp Consumer - Wait For Target",
+    "type": "sensor",
+    "uuid": "graph_demo_combo_gdp_consumer__wait_for_target"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_combo_target",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:cf2d1634fc406ab4a37ccc866d340aeb33f0d18869924cc77a58486fa5636ef7",
+  "file_path": "/home/src/demo/sensors/graph_demo_combo_gdp_consumer__wait_for_target.py",
+  "schema_version": 1
+}

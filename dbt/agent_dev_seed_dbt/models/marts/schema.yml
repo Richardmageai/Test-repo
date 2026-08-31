@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: seeded_customer_metrics
+    description: Fake customer metrics generated for AWS agent dev slots.
+  - name: seeded_daily_rollup
+    description: Fake daily rollup generated for AWS agent dev slots.

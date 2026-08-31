@@ -1,0 +1,35 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_dense_finalizer__wait_for_leaves.py",
+    "language": "python",
+    "name": "Graph Demo Dense Finalizer - Wait For Leaves",
+    "type": "sensor",
+    "uuid": "graph_demo_dense_finalizer__wait_for_leaves"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_leaf_north",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_dense_leaf_south",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:6be6f8695cf05ee681ab291dd797341a2730f0e0339a7964fc496941a8a886a8",
+  "file_path": "/home/src/demo/sensors/graph_demo_dense_finalizer__wait_for_leaves.py",
+  "schema_version": 1
+}

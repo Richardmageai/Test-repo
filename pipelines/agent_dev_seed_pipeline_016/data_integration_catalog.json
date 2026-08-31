@@ -1,0 +1,69 @@
+{
+  "catalog": {
+    "streams": [
+      {
+        "auto_add_new_fields": false,
+        "destination_table": "agent_dev_seed_integration_events",
+        "key_properties": [
+          "event_id"
+        ],
+        "metadata": [
+          {
+            "breadcrumb": [],
+            "metadata": {
+              "forced-replication-method": "FULL_TABLE",
+              "inclusion": "available",
+              "schema-name": "agent_dev_seed_integration_events",
+              "selected": true,
+              "table-key-properties": [
+                "event_id"
+              ],
+              "valid-replication-keys": []
+            }
+          },
+          {
+            "breadcrumb": [
+              "properties",
+              "event_id"
+            ],
+            "metadata": {
+              "inclusion": "available",
+              "selected": true
+            }
+          },
+          {
+            "breadcrumb": [
+              "properties",
+              "event_name"
+            ],
+            "metadata": {
+              "inclusion": "available",
+              "selected": true
+            }
+          }
+        ],
+        "replication_method": "FULL_TABLE",
+        "schema": {
+          "properties": {
+            "event_id": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "event_name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          },
+          "type": "object"
+        },
+        "stream": "agent_dev_seed_integration_events",
+        "tap_stream_id": "agent_dev_seed_integration_events",
+        "unique_conflict_method": "UPDATE"
+      }
+    ]
+  }
+}

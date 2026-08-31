@@ -1,0 +1,35 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_dense_branch_beta__wait_for_sources.py",
+    "language": "python",
+    "name": "Graph Demo Dense Branch Beta - Wait For Sources",
+    "type": "sensor",
+    "uuid": "graph_demo_dense_branch_beta__wait_for_sources"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_root",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_dense_branch_alpha",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:f14dd2e581f0a801844d315113288b7f8000bdbb0d36fd3e8f70f09b4de2d68e",
+  "file_path": "/home/src/demo/sensors/graph_demo_dense_branch_beta__wait_for_sources.py",
+  "schema_version": 1
+}

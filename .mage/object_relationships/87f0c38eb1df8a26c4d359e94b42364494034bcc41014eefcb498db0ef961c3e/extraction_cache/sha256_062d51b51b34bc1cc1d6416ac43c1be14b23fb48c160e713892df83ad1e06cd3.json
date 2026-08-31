@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/load_custom_python_stream.py",
+    "language": "python",
+    "name": "Load Custom Python Stream",
+    "type": "data_loader",
+    "uuid": "load_custom_python_stream"
+  },
+  "calls": [],
+  "content_hash": "sha256:062d51b51b34bc1cc1d6416ac43c1be14b23fb48c160e713892df83ad1e06cd3",
+  "file_path": "/home/src/demo/data_loaders/load_custom_python_stream.py",
+  "schema_version": 1
+}

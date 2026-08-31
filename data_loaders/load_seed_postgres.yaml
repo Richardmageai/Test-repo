@@ -1,0 +1,3 @@
+source: postgresql
+config:
+  io_config_profile: agent_dev_seed_postgres

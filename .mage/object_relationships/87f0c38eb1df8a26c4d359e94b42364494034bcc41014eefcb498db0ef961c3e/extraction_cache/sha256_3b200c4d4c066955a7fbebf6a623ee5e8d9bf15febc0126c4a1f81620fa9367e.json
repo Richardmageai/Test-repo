@@ -1,0 +1,18 @@
+{
+  "block": {
+    "configuration": {
+      "data_provider": "duckdb",
+      "data_provider_profile": "agent_dev_seed_duckdb",
+      "use_raw_sql": true
+    },
+    "file_path": "/home/src/demo/transformers/query_duckdb_015.sql",
+    "language": "sql",
+    "name": "Query Duckdb 015",
+    "type": "transformer",
+    "uuid": "query_duckdb_015"
+  },
+  "calls": [],
+  "content_hash": "sha256:3b200c4d4c066955a7fbebf6a623ee5e8d9bf15febc0126c4a1f81620fa9367e",
+  "file_path": "/home/src/demo/transformers/query_duckdb_015.sql",
+  "schema_version": 1
+}

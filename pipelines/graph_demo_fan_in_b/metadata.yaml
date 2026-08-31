@@ -1,0 +1,19 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Fan In B - Trigger Join
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_fan_in_b__trigger_join
+created_at: '2026-07-29 00:00:00+00:00'
+description: Calls trigger_pipeline("graph_demo_fan_in_join").
+name: Graph Demo - Fan In B
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_fan_in_b
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

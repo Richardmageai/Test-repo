@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_fan_in_a__trigger_join.py",
+    "language": "python",
+    "name": "Graph Demo Fan In A - Trigger Join",
+    "type": "data_loader",
+    "uuid": "graph_demo_fan_in_a__trigger_join"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_fan_in_join",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:f2db7ee30749759b30c01f0d575c7f88ee80268ec063c7b757eed89b9b7c992f",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_fan_in_a__trigger_join.py",
+  "schema_version": 1
+}

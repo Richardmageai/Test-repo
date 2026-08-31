@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/load_seed_postgres.yaml",
+    "language": "yaml",
+    "name": "Load Seed Postgres",
+    "type": "data_loader",
+    "uuid": "load_seed_postgres"
+  },
+  "calls": [],
+  "content_hash": "sha256:633a0cffcf7758be6d8e76738f049884d200eb258eabe05abe767409bfd2bcbd",
+  "file_path": "/home/src/demo/data_loaders/load_seed_postgres.yaml",
+  "schema_version": 1
+}

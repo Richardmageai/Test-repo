@@ -1,0 +1,19 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Fan Out B - Input
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_fan_out_b__input
+created_at: '2026-07-29 00:00:00+00:00'
+description: Receives a trigger from the fan-in join.
+name: Graph Demo - Fan Out B
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_fan_out_b
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

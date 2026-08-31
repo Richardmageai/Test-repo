@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/graph_demo_gdp_publisher__publish_daily_orders.py",
+    "language": "python",
+    "name": "Graph Demo Gdp Publisher - Publish Daily Orders",
+    "type": "data_exporter",
+    "uuid": "graph_demo_gdp_publisher__publish_daily_orders"
+  },
+  "calls": [],
+  "content_hash": "sha256:5e81642f78069944d1a06304ccdb17c29a05a3b5191a30a231e640e622dcabce",
+  "file_path": "/home/src/demo/data_exporters/graph_demo_gdp_publisher__publish_daily_orders.py",
+  "schema_version": 1
+}

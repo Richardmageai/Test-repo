@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/graph_demo_dense_shared_join__publish_snapshot.py",
+    "language": "python",
+    "name": "Graph Demo Dense Shared Join - Publish Snapshot",
+    "type": "data_exporter",
+    "uuid": "graph_demo_dense_shared_join__publish_snapshot"
+  },
+  "calls": [],
+  "content_hash": "sha256:fb14ef0e3fef3104e6fe5d87a5ae890441eaad9848d7e02aa966f84daff125a1",
+  "file_path": "/home/src/demo/data_exporters/graph_demo_dense_shared_join__publish_snapshot.py",
+  "schema_version": 1
+}

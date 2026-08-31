@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_cycle_b__wait_for_a.py",
+    "language": "python",
+    "name": "Graph Demo Cycle B - Wait For A",
+    "type": "sensor",
+    "uuid": "graph_demo_cycle_b__wait_for_a"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_cycle_a",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:ca34a5e1c50a04ea0ee2e4bee79c3fc6e42e3afdb92067706dec59d1ca14f2a0",
+  "file_path": "/home/src/demo/sensors/graph_demo_cycle_b__wait_for_a.py",
+  "schema_version": 1
+}

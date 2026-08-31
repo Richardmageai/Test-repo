@@ -1,0 +1,19 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Workspace Trigger Target - Input
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_workspace_trigger_target__input
+created_at: '2026-07-29 00:00:00+00:00'
+description: Target pipeline for workspace trigger relationship testing.
+name: Graph Demo - Workspace Trigger Target
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_workspace_trigger_target
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

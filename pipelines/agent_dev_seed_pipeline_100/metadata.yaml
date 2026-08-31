@@ -1,0 +1,71 @@
+blocks:
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - transform_metrics_100
+  - enrich_metrics_100
+  language: python
+  name: Load Fake 100 1
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_fake_100_1
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_100
+  language: python
+  name: Transform Metrics 100
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_100_1
+  uuid: transform_metrics_100
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_100
+  language: python
+  name: Enrich Metrics 100
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_100_1
+  uuid: enrich_metrics_100
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: python
+  name: Export Seeded 100
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - enrich_metrics_100
+  - transform_metrics_100
+  uuid: export_seeded_100
+callbacks: []
+conditionals: []
+created_at: '2026-06-01 12:00:00+00:00'
+description: 'Runs a deterministic executable Python workflow for AWS agent dev slot
+  testing; source catalog entry: graph_demo_neighborhood_root.'
+extensions: {}
+name: Deterministic pipeline example 100
+tags:
+- agent-dev-seed
+- python
+type: python
+uuid: agent_dev_seed_pipeline_100
+variables:
+  generated_block_count: 4
+  seed_index: 99
+  seeded_by: agent_aws_dev_slot_seed
+  source_pipeline_uuid: graph_demo_neighborhood_root
+widgets: []

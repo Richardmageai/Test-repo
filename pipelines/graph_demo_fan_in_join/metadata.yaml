@@ -1,0 +1,26 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Fan In Join - Wait For Sources
+  status: not_executed
+  type: sensor
+  upstream_blocks: []
+  uuid: graph_demo_fan_in_join__wait_for_sources
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Fan In Join - Trigger Outputs
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_fan_in_join__trigger_outputs
+created_at: '2026-07-29 00:00:00+00:00'
+description: Waits for fan-in sources and triggers fan-out targets.
+name: Graph Demo - Fan In Join
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_fan_in_join
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

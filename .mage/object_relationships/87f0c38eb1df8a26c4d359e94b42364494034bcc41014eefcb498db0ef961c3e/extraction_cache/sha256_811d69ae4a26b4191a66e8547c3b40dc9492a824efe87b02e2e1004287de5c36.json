@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/trigger_agent_dev_seed_pipeline_093.py",
+    "language": "python",
+    "name": "Trigger Agent Dev Seed Pipeline 093",
+    "type": "data_exporter",
+    "uuid": "trigger_agent_dev_seed_pipeline_093"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 17,
+      "pipeline_uuid": "agent_dev_seed_pipeline_093",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:811d69ae4a26b4191a66e8547c3b40dc9492a824efe87b02e2e1004287de5c36",
+  "file_path": "/home/src/demo/data_exporters/trigger_agent_dev_seed_pipeline_093.py",
+  "schema_version": 1
+}

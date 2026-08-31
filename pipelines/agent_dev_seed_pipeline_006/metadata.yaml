@@ -1,0 +1,110 @@
+blocks:
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - transform_metrics_006
+  language: python
+  name: Load Fake 006 1
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_fake_006_1
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - transform_metrics_006
+  - enrich_metrics_006
+  language: python
+  name: Load Fake 006 2
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_fake_006_2
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_006
+  language: python
+  name: Transform Metrics 006
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_006_1
+  - load_fake_006_2
+  uuid: transform_metrics_006
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_006
+  language: python
+  name: Enrich Metrics 006
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_006_2
+  uuid: enrich_metrics_006
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - trigger_agent_dev_seed_pipeline_012
+  - trigger_agent_dev_seed_pipeline_013
+  language: python
+  name: Export Seeded 006
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - enrich_metrics_006
+  - transform_metrics_006
+  uuid: export_seeded_006
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: python
+  name: Trigger Agent Dev Seed Pipeline 012
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - export_seeded_006
+  uuid: trigger_agent_dev_seed_pipeline_012
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: python
+  name: Trigger Agent Dev Seed Pipeline 013
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - export_seeded_006
+  uuid: trigger_agent_dev_seed_pipeline_013
+callbacks: []
+conditionals: []
+created_at: '2026-06-01 12:00:00+00:00'
+description: 'Cleans and enriches customer event metrics, then triggers the matching
+  analytics publish pipeline; source catalog entry: graph_demo_cycle_b.'
+extensions: {}
+name: Customer metrics enrichment 1
+tags:
+- agent-dev-seed
+- python
+type: python
+uuid: agent_dev_seed_pipeline_006
+variables:
+  generated_block_count: 7
+  seed_index: 5
+  seeded_by: agent_aws_dev_slot_seed
+  source_pipeline_uuid: graph_demo_cycle_b
+widgets: []

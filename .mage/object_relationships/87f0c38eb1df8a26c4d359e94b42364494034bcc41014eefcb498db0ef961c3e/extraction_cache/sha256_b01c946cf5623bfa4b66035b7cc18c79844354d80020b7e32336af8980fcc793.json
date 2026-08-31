@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_neighborhood_hub__wait_for_root.py",
+    "language": "python",
+    "name": "Graph Demo Neighborhood Hub - Wait For Root",
+    "type": "sensor",
+    "uuid": "graph_demo_neighborhood_hub__wait_for_root"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_neighborhood_root",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:b01c946cf5623bfa4b66035b7cc18c79844354d80020b7e32336af8980fcc793",
+  "file_path": "/home/src/demo/sensors/graph_demo_neighborhood_hub__wait_for_root.py",
+  "schema_version": 1
+}

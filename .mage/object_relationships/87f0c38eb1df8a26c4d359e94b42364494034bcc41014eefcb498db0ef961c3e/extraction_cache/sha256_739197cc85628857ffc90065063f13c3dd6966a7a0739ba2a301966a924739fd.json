@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_schedule_sensor_waiter__check_pipeline_run_status.py",
+    "language": "python",
+    "name": "Graph Demo Schedule Sensor Waiter - Check Pipeline Run Status",
+    "type": "sensor",
+    "uuid": "graph_demo_schedule_sensor_waiter__check_pipeline_run_status"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_schedule_sensor_source",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:739197cc85628857ffc90065063f13c3dd6966a7a0739ba2a301966a924739fd",
+  "file_path": "/home/src/demo/sensors/graph_demo_schedule_sensor_waiter__check_pipeline_run_status.py",
+  "schema_version": 1
+}

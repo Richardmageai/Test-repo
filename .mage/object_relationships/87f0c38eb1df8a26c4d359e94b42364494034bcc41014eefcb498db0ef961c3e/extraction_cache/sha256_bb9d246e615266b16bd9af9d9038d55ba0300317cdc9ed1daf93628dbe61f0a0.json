@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/export_seed_duckdb.yaml",
+    "language": "yaml",
+    "name": "Export Seed Duckdb",
+    "type": "data_exporter",
+    "uuid": "export_seed_duckdb"
+  },
+  "calls": [],
+  "content_hash": "sha256:bb9d246e615266b16bd9af9d9038d55ba0300317cdc9ed1daf93628dbe61f0a0",
+  "file_path": "/home/src/demo/data_exporters/export_seed_duckdb.yaml",
+  "schema_version": 1
+}

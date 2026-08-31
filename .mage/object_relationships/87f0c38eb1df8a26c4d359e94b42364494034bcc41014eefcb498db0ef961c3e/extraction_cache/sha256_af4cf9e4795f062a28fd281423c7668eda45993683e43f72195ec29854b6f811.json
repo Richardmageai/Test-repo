@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/graph_demo_dense_branch_beta__trigger_join.py",
+    "language": "python",
+    "name": "Graph Demo Dense Branch Beta - Trigger Join",
+    "type": "data_loader",
+    "uuid": "graph_demo_dense_branch_beta__trigger_join"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "downstream",
+      "function_name": "trigger_pipeline",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_dense_shared_join",
+      "relationship_type": "pipeline_trigger",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:af4cf9e4795f062a28fd281423c7668eda45993683e43f72195ec29854b6f811",
+  "file_path": "/home/src/demo/data_loaders/graph_demo_dense_branch_beta__trigger_join.py",
+  "schema_version": 1
+}

@@ -1,0 +1,26 @@
+blocks:
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Dense Root - Trigger Branches
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: graph_demo_dense_root__trigger_branches
+- all_upstream_blocks_executed: true
+  downstream_blocks: []
+  name: Graph Demo Dense Root - Publish Snapshot
+  status: not_executed
+  type: data_exporter
+  upstream_blocks: []
+  uuid: graph_demo_dense_root__publish_snapshot
+created_at: '2026-07-29 00:00:00+00:00'
+description: Dense root that triggers three branches.
+name: Graph Demo - Dense Root
+tags:
+- cross-pipeline-graph-demo
+- agent-dev-seed
+type: python
+uuid: graph_demo_dense_root
+variables:
+  seeded_by: codex_cross_pipeline_graph_seed
+widgets: []

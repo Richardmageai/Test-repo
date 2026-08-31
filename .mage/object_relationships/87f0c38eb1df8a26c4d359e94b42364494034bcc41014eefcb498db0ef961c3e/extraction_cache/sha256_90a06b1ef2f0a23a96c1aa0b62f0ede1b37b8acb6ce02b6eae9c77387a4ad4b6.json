@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/export_dummy_stream.yaml",
+    "language": "yaml",
+    "name": "Export Dummy Stream",
+    "type": "data_exporter",
+    "uuid": "export_dummy_stream"
+  },
+  "calls": [],
+  "content_hash": "sha256:90a06b1ef2f0a23a96c1aa0b62f0ede1b37b8acb6ce02b6eae9c77387a4ad4b6",
+  "file_path": "/home/src/demo/data_exporters/export_dummy_stream.yaml",
+  "schema_version": 1
+}

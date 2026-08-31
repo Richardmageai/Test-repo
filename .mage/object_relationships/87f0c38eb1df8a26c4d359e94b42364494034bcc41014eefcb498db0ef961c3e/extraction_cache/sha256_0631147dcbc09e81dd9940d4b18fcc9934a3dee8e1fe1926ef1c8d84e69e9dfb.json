@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/graph_demo_dense_branch_alpha__publish_snapshot.py",
+    "language": "python",
+    "name": "Graph Demo Dense Branch Alpha - Publish Snapshot",
+    "type": "data_exporter",
+    "uuid": "graph_demo_dense_branch_alpha__publish_snapshot"
+  },
+  "calls": [],
+  "content_hash": "sha256:0631147dcbc09e81dd9940d4b18fcc9934a3dee8e1fe1926ef1c8d84e69e9dfb",
+  "file_path": "/home/src/demo/data_exporters/graph_demo_dense_branch_alpha__publish_snapshot.py",
+  "schema_version": 1
+}

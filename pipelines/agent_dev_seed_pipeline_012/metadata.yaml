@@ -1,0 +1,113 @@
+blocks:
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - transform_metrics_012
+  - enrich_metrics_012
+  language: python
+  name: Load Fake 012 1
+  status: not_executed
+  type: data_loader
+  upstream_blocks: []
+  uuid: load_fake_012_1
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_012
+  language: python
+  name: Transform Metrics 012
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_012_1
+  uuid: transform_metrics_012
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - export_seeded_012
+  language: python
+  name: Enrich Metrics 012
+  status: not_executed
+  type: transformer
+  upstream_blocks:
+  - load_fake_012_1
+  uuid: enrich_metrics_012
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration:
+    data_provider: postgres
+    data_provider_profile: agent_dev_seed_postgres
+    use_raw_sql: true
+  downstream_blocks:
+  - export_seeded_012
+  language: sql
+  name: Query Postgres 012
+  status: not_executed
+  type: transformer
+  upstream_blocks: []
+  uuid: query_postgres_012
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks:
+  - trigger_agent_dev_seed_pipeline_024
+  - trigger_agent_dev_seed_pipeline_025
+  language: python
+  name: Export Seeded 012
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - transform_metrics_012
+  - enrich_metrics_012
+  - query_postgres_012
+  uuid: export_seeded_012
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: python
+  name: Trigger Agent Dev Seed Pipeline 024
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - export_seeded_012
+  uuid: trigger_agent_dev_seed_pipeline_024
+- all_upstream_blocks_executed: true
+  callback_blocks: []
+  conditional_blocks: []
+  configuration: {}
+  downstream_blocks: []
+  language: python
+  name: Trigger Agent Dev Seed Pipeline 025
+  status: not_executed
+  type: data_exporter
+  upstream_blocks:
+  - export_seeded_012
+  uuid: trigger_agent_dev_seed_pipeline_025
+callbacks: []
+conditionals: []
+created_at: '2026-06-01 12:00:00+00:00'
+description: 'Builds customer analytics with a seeded PostgreSQL SQL block and publishes
+  the final dependency-chain output; source catalog entry: graph_demo_dense_leaf_north.'
+extensions: {}
+name: Customer analytics publish 2 (PostgreSQL)
+tags:
+- agent-dev-seed
+- python
+type: python
+uuid: agent_dev_seed_pipeline_012
+variables:
+  generated_block_count: 7
+  seed_index: 11
+  seeded_by: agent_aws_dev_slot_seed
+  source_pipeline_uuid: graph_demo_dense_leaf_north
+widgets: []

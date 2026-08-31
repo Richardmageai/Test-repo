@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/transformers/transform_metrics_032.py",
+    "language": "python",
+    "name": "Transform Metrics 032",
+    "type": "transformer",
+    "uuid": "transform_metrics_032"
+  },
+  "calls": [],
+  "content_hash": "sha256:25781c9696ca06035d06e7c4ea1f53094a03b5beb993b3c0457f778c3065e3d8",
+  "file_path": "/home/src/demo/transformers/transform_metrics_032.py",
+  "schema_version": 1
+}

@@ -1,0 +1,35 @@
+graph_demo_combo_snapshot:
+  description: Graph demo data product used by mixed relationship cases.
+  name: Graph demo combo snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_combo_gdp_publisher
+graph_demo_cycle_snapshot:
+  description: Graph demo data product for cyclic stress cases.
+  name: Graph demo cycle snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_cycle_c
+graph_demo_daily_orders_snapshot:
+  description: Graph demo data product backed by the GDP publisher pipeline.
+  name: Graph demo daily orders snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_gdp_publisher
+graph_demo_dense_alpha_snapshot:
+  description: Graph demo data product for dense branch fan-in cases.
+  name: Graph demo dense alpha snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_dense_branch_alpha
+graph_demo_dense_join_snapshot:
+  description: Graph demo data product for dense finalizer cases.
+  name: Graph demo dense join snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_dense_shared_join
+graph_demo_dense_root_snapshot:
+  description: Graph demo data product for dense root fan-out cases.
+  name: Graph demo dense root snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_dense_root
+graph_demo_neighborhood_snapshot:
+  description: Graph demo data product used by neighborhood dependency cases.
+  name: Graph demo neighborhood snapshot
+  object_type: pipeline
+  object_uuid: graph_demo_neighborhood_root

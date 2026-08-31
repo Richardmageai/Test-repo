@@ -1,0 +1,35 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_fan_in_join__wait_for_sources.py",
+    "language": "python",
+    "name": "Graph Demo Fan In Join - Wait For Sources",
+    "type": "sensor",
+    "uuid": "graph_demo_fan_in_join__wait_for_sources"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_fan_in_a",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    },
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 6,
+      "pipeline_uuid": "graph_demo_fan_in_b",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:096210fecdcc1f891be586b125e4f28d339c230a1f18e6b34044edfd8a1cd2e7",
+  "file_path": "/home/src/demo/sensors/graph_demo_fan_in_join__wait_for_sources.py",
+  "schema_version": 1
+}

@@ -1,0 +1,18 @@
+{
+  "block": {
+    "configuration": {
+      "data_provider": "postgres",
+      "data_provider_profile": "agent_dev_seed_postgres",
+      "use_raw_sql": true
+    },
+    "file_path": "/home/src/demo/transformers/query_postgres_012.sql",
+    "language": "sql",
+    "name": "Query Postgres 012",
+    "type": "transformer",
+    "uuid": "query_postgres_012"
+  },
+  "calls": [],
+  "content_hash": "sha256:80d72a192996aadd084500f24d589451360468a9a716dd2445ac831ef3cc41af",
+  "file_path": "/home/src/demo/transformers/query_postgres_012.sql",
+  "schema_version": 1
+}

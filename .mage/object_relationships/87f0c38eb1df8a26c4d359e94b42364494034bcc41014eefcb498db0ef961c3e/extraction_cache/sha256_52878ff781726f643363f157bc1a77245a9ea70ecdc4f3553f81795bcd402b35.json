@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_loaders/load_fake_010_1.py",
+    "language": "python",
+    "name": "Load Fake 010 1",
+    "type": "data_loader",
+    "uuid": "load_fake_010_1"
+  },
+  "calls": [],
+  "content_hash": "sha256:52878ff781726f643363f157bc1a77245a9ea70ecdc4f3553f81795bcd402b35",
+  "file_path": "/home/src/demo/data_loaders/load_fake_010_1.py",
+  "schema_version": 1
+}

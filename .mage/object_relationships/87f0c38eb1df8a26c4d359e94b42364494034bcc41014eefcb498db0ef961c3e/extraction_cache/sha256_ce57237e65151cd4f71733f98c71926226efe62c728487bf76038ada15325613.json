@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/data_exporters/graph_demo_cycle_c__publish_snapshot.py",
+    "language": "python",
+    "name": "Graph Demo Cycle C - Publish Snapshot",
+    "type": "data_exporter",
+    "uuid": "graph_demo_cycle_c__publish_snapshot"
+  },
+  "calls": [],
+  "content_hash": "sha256:ce57237e65151cd4f71733f98c71926226efe62c728487bf76038ada15325613",
+  "file_path": "/home/src/demo/data_exporters/graph_demo_cycle_c__publish_snapshot.py",
+  "schema_version": 1
+}

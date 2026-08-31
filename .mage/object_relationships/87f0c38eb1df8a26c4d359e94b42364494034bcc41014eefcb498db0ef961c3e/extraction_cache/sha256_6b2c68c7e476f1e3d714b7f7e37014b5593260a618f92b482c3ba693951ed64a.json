@@ -1,0 +1,14 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/transformers/enrich_metrics_074.py",
+    "language": "python",
+    "name": "Enrich Metrics 074",
+    "type": "transformer",
+    "uuid": "enrich_metrics_074"
+  },
+  "calls": [],
+  "content_hash": "sha256:6b2c68c7e476f1e3d714b7f7e37014b5593260a618f92b482c3ba693951ed64a",
+  "file_path": "/home/src/demo/transformers/enrich_metrics_074.py",
+  "schema_version": 1
+}

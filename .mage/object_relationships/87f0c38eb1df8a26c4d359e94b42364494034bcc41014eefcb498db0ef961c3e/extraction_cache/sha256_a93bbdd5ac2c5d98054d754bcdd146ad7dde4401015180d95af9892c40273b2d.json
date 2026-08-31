@@ -1,0 +1,25 @@
+{
+  "block": {
+    "configuration": {},
+    "file_path": "/home/src/demo/sensors/graph_demo_sensor_waiter__check_status.py",
+    "language": "python",
+    "name": "Graph Demo Sensor Waiter - Check Status",
+    "type": "sensor",
+    "uuid": "graph_demo_sensor_waiter__check_status"
+  },
+  "calls": [
+    {
+      "confidence": "high",
+      "direction": "upstream",
+      "function_name": "check_status",
+      "import_verified": true,
+      "line": 5,
+      "pipeline_uuid": "graph_demo_sensor_source",
+      "relationship_type": "sensor",
+      "unresolved_target": null
+    }
+  ],
+  "content_hash": "sha256:a93bbdd5ac2c5d98054d754bcdd146ad7dde4401015180d95af9892c40273b2d",
+  "file_path": "/home/src/demo/sensors/graph_demo_sensor_waiter__check_status.py",
+  "schema_version": 1
+}

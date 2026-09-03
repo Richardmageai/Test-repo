@@ -1,0 +1,18 @@
+data:
+  all: true
+rag:
+  files:
+    exclude: []
+    include: []
+  folders:
+    exclude: []
+    include:
+    - /home/src/demo/callbacks
+    - /home/src/demo/custom
+    - /home/src/demo/data_exporters
+    - /home/src/demo/data_loaders
+    - /home/src/demo/dbt
+    - /home/src/demo/extensions
+    - /home/src/demo/sensors
+    - /home/src/demo/transformers
+    - /home/src/demo/utils

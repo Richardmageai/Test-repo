@@ -8,8 +8,10 @@ This Mage project contains pipelines, data loaders, transformers, and exporters 
 - `transformers/` — transformation blocks.
 - `data_exporters/` — export blocks.
 - `pipelines/` — pipeline definitions and metadata.
-- `tmp/` — temporary runtime files and logs.
+i removed line for this 
 
 ## Getting started
 
 Use the Mage UI to inspect, edit, and run the available pipelines.
+
+i added new line here with bank upper line 

@@ -1,1 +1,1 @@
-# Keep this test repo dependency-free.
+# Keep this test repo dependency-free.deltalake

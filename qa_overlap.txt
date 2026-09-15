@@ -1,2 +1,3 @@
 base: shared conflict demo line before edits.
 expected: Mage must block pull, preserve both versions, and open resolver.
+shear conflict demo line before edits 

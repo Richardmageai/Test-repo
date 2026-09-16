@@ -1,1 +1,1 @@
-VALUE = "base 03"
+VALUE = "remote 03"

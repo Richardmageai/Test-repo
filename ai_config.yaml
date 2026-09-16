@@ -1,4 +1,4 @@
-data:
+project_uuid: remote-conflict-test
   all: true
 rag:
   files:

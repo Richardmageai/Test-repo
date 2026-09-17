@@ -1,1 +1,1 @@
-VALUE = "non-fast-forward base"
+VALUE = "external remote version"
